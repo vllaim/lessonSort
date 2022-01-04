@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                     element.toString() + 1
                 }
                     index++
-   
+
                 binding.tvArrayResult.text = array.contentToString()
             }
         }
