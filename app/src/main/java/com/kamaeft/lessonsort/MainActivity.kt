@@ -13,8 +13,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val array = arrayOf(6, 4, 2, 14, 9, 17)
-        bubbleSort(array)
+
+        val array2 = arrayOf(100, 4, 134, 14, 1022, 17)
+        bubbleSort(array2)
 
 
     }
